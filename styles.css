@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
+
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242,221,104);
+    border-radius: 100%;
+    margin: 20px;
+    position: relative;
+} 
+.emoji-face:hover {
+    transform: scale(1.2);
+}
+.eye1 {
+    width: 10px;
+    background-color: rgb(153,87,16);
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.eye2 {
+    width: 10px;
+    background-color: rgb(153,87,16);
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.mouth{
+    width: 60px;
+    height: 30px;
+    background-color: #995710;
+    border-radius: 0 0 40px 40px;
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    overflow: hidden;
+}
+    
+    
+.tongue{
+    background-color: #E25D5D;
+    width:30px;
+    height: 20px;
+    border-radius: 0px 0px 50px 50px;
+    top: 11px;
+    left: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mouth-shock {
+    background-color: rgb(153,87,16);
+    width: 28px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 36px;
+}
+
+.mouth-speechless {
+    background-color: rgb(153,87,16);
+    position: absolute;
+    width: 55px;
+    height: 6px;
+    top: 65px;
+    left: 23px;
+}
+
+
+
+.bar1 {
+    width: 23px;
+    background-color: rgb(153,87,16);
+    height: 4px;
+    position: absolute;
+    top: 36px;
+    right: 22px;
+}
+
+.bar2 {
+    width: 23px;
+    background-color: rgb(153,87,16);
+    height: 4px;
+    position: absolute;
+    top: 36px;
+    left: 22px;
+}  
+
+.mouth-drag {
+    background-color: rgb(153,87,16);
+    position: absolute;
+    width: 45px;
+    height: 4px;
+    top: 65px;
+    left: 28px;
+}
+
+
+.emoji-face {
+    float: left;
+} 
+ 
+.write-up{
+    background-color: #D8AA2B;
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 190px auto 50px;
+   
+}
+.wrapper {
+    margin:0 auto;
+    width: max-content;       
+}
+
+p {
+    text-align: center;
+}
